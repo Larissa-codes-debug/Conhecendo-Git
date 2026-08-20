@@ -1,0 +1,14 @@
+{
+  "name": "desafio-03",
+  "version": "1.0.0",
+  "description": "Servidor Node.js com MongoDB utilizando Docker",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0"
+  }
+}
